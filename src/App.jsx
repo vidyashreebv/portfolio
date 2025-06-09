@@ -249,13 +249,13 @@ function App() {
             </motion.div>
             <motion.div 
               className="hero-image"
-              initial={{ opacity: 0, x: 50 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.8, delay: 0.4 }}
+              initial={{ opacity: 0, scale: 0.8 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.6, delay: 0.2 }}
             >
               <div className="image-container">
                 <div className="image-wrapper">
-                  <img src="src/image.jpeg" alt="Vidya Shree B V" />
+                  <img src="/portfolio/images/profile.jpg" alt="Vidya Shree B V" />
                 </div>
                 <div className="image-decoration"></div>
               </div>
