@@ -255,7 +255,7 @@ function App() {
             >
               <div className="image-container">
                 <div className="image-wrapper">
-                  <img src="/portfolio/images/profile.jpg" alt="Vidya Shree B V" />
+                  <img src="./images/profile.jpg" alt="Vidya Shree B V" />
                 </div>
                 <div className="image-decoration"></div>
               </div>
